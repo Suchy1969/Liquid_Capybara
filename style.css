@@ -65,7 +65,7 @@ li,ol{
     
 }
 ul,ol{
-   
+   Padding-left:0px !important;
     list-style-position: inside;
 }
 #niedostepne{
