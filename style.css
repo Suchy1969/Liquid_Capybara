@@ -1,0 +1,65 @@
+html,body,.main{
+    background-color: #191e2a !important;
+    width: 100% !important;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(images/capibara_bg.png);
+}
+#Name_div, #Content_div{
+    display: flex;
+    justify-content: center;
+}
+#Name_div{
+    margin-top: 60px;
+}
+#Content_div{
+    margin-top: 20px;
+}
+h1{
+    font-size: 80px !important;
+    font-family: montserrat !important; 
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800 !important;
+    
+}
+h2{
+    font-size: 40px !important;
+    font-family: montserrat !important; 
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800 !important;
+}
+@media (max-width: 500px){
+    h1{
+    font-size: 50px !important;
+    font-family: montserrat !important; 
+    text-transform: uppercase;
+}
+h2{
+    font-size: 20px !important;
+    font-family: montserrat !important; 
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800 !important;
+}
+}
+li,ol{
+    font-size:18px;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: 500;
+}
+#niedostepne{
+    list-style-image: url(images/cross.png);
+ padding: auto;
+}
+li::marker{
+    width: 19px !important;
+    height: 19px !important;
+}
