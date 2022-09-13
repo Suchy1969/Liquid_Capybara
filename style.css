@@ -9,6 +9,8 @@ html,body,.main{
     background-repeat: no-repeat;
     background-position: center;
     background-image: url(images/capibara_bg.png);
+    background-attachment: fixed;
+
 }
 #Name_div, #Content_div{
     display: flex;
